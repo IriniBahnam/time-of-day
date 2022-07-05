@@ -99,17 +99,17 @@ Night (11pm to 5am)
 	// REMOVE FOLLOWING LINE, ONLY FOR TESTING
 	// myHour = 14;
 
-		if(myHour < 12) {
+		if(myHour >5 && myHour < 12) {
   		// alert("good morning");
 		myGreeting="good morning";
 		myColor = "orange";
 		myPic="morning.jpg";
-		}else if (myHour < 16) {
+		}else if (myHour >12 && myHour < 16) {
   		// alert("good afternoon");
 		myGreeting="good afternoon";
 		myColor = "yellow";
 		myPic="afternoon.jpg";
-		}else if (myHour < 18) { 
+		}else if (myHour >= 18 && myHour < 23) { 
 			myGreeting="good evening"
 		myColor = "blue";
 		myPic="evening.jpg";
